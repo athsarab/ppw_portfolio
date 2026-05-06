@@ -50,32 +50,32 @@ const reflections = [
   {
     title: "Journal Entry 01 - Business Writing and Professional Communication",
     description:
-      "In PPW, I learned that professional writing must be clear, concise, polite, and audience-focused. I understood the importance of using formal language, avoiding slang, structuring information logically, and proofreading before sending any professional message. This learning is valuable because software engineers communicate with clients, teammates, managers, and users through emails, reports, documentation, and project updates.",
+      "In PPW, I learned that professional writing must be concise, formal, and action-oriented, with clear structure and purposeful wording. I applied this when drafting a project status memo where I removed contractions, used formal vocabulary, and ended each section with a specific call-to-action. I also practiced careful proofreading to eliminate ambiguity and tone issues. This discipline improved my professional readiness by making my communication clearer and more credible to supervisors and clients.",
   },
   {
     title: "Journal Entry 02 - Formal Email Writing and Netiquette",
     description:
-      "I learned that emails are not just messages; they are professional records. A good email should have a clear subject line, proper salutation, organized body, polite tone, and professional closing. I also learned the importance of replying responsibly, using attachments correctly, and rereading before sending. This will help me communicate better in internships, client work, and team projects.",
+      "I learned how to structure professional emails with precise subject lines, proper salutations, and organized body paragraphs that state purpose, request, and next steps. I practiced this by emailing a lecturer to request feedback, using polite phrasing, an attachment note, and a complete signature. I also focused on concise wording and timely replies as part of netiquette. This improved my readiness by preparing me to communicate effectively in internships and team environments.",
   },
   {
     title: "Journal Entry 03 - Presentation Skills",
     description:
-      "PPW helped me understand that a good presentation has a clear beginning, body, and conclusion. I learned to capture attention, explain ideas briefly, use signposting, avoid overcrowded slides, and speak with confidence. These skills are important for presenting software projects, explaining technical solutions, and participating in academic or workplace discussions.",
+      "PPW helped me understand how to structure presentations using signposting, clear transitions, and confident delivery. I applied this in a short class presentation by outlining a strong introduction, three main points, and a concise conclusion. I practiced managing nervousness by controlling breathing and maintaining steady pacing. These skills improved my professional readiness by helping me explain technical ideas with clarity and confidence.",
   },
   {
     title: "Journal Entry 04 - Interview Preparation",
     description:
-      "Through the interview lessons, I learned how employers assess skills, knowledge, communication, problem-solving ability, professionalism, and cultural fit. I also learned about different interview types such as in-person, panel, behavioral, technical, case-study, and virtual interviews. The STAR method helped me understand how to answer behavioral questions using Situation, Task, Action, and Result.",
+      "I learned about different interview formats and what employers assess, including technical ability, communication, and cultural fit. I practiced the STAR method by preparing responses to behavioral questions about teamwork and problem solving. This helped me structure my answers with clear outcomes rather than vague descriptions. As a result, I feel more prepared to present myself professionally and respond confidently in real interviews.",
   },
   {
     title: "Journal Entry 05 - Non-Verbal Communication",
     description:
-      "I learned that communication is not only about words. Eye contact, posture, voice modulation, hand gestures, facial expressions, and professional appearance influence how others understand us. As a future software engineer, this will help me perform better in interviews, presentations, meetings, and client discussions.",
+      "I learned that non-verbal cues such as posture, eye contact, gestures, and voice modulation strongly influence how messages are received. I practiced this during mock interviews by maintaining upright posture, steady eye contact, and controlled tone and pace. I also paid attention to professional appearance to align with the expectations of a formal setting. This improved my readiness by making my communication more persuasive and professional beyond words alone.",
   },
   {
     title: "Journal Entry 06 - Career Readiness",
     description:
-      "PPW encouraged me to think about my career direction more clearly. I understood that technical skills alone are not enough. I need communication, teamwork, time management, confidence, professional writing, interview readiness, and continuous learning to succeed in the professional world.",
+      "I learned that career development requires deliberate goal setting, continuous skill growth, and portfolio building rather than short-term thinking. I applied this by outlining short-, mid-, and long-term goals and identifying specific skills to improve each month. I also mapped how my projects and certifications can evidence my progress. This improved my professional readiness by giving me a clearer direction and a structured plan to reach industry expectations.",
   },
 ];
 
@@ -157,81 +157,187 @@ const actionPlan = [
   "Request feedback from peers and lecturers",
 ];
 
+const evidenceItems = [
+  {
+    id: "cert-genai-essentials",
+    title: "Career Essentials in Generative AI",
+    issuer: "Microsoft and LinkedIn",
+    date: "[Add completion date]",
+    skill: "Generative AI fundamentals and responsible use",
+    linkLabel: "Open PDF",
+    linkHref:
+      "/evidence/CertificateOfCompletion_Career%20Essentials%20in%20Generative%20AI%20by%20Microsoft%20and%20LinkedIn.pdf",
+    reflection:
+      "This course improved my understanding of how generative AI supports modern workflows and reinforced responsible use in professional settings.",
+  },
+  {
+    id: "cert-genai-ethics",
+    title: "Ethics in the Age of Generative AI",
+    issuer: "LinkedIn Learning",
+    date: "[Add completion date]",
+    skill: "AI ethics and responsible decision-making",
+    linkLabel: "Open PDF",
+    linkHref:
+      "/evidence/CertificateOfCompletion_Ethics%20in%20the%20Age%20of%20Generative%20AI.pdf",
+    reflection:
+      "The content strengthened my awareness of ethical risk, bias, and compliance when building AI-informed solutions.",
+  },
+  {
+    id: "cert-python-beginners",
+    title: "Python for Beginners",
+    issuer: "[Add issuing organization]",
+    date: "[Add completion date]",
+    skill: "Python fundamentals and problem solving",
+    linkLabel: "Open PDF",
+    linkHref: "/evidence/Python_for_Beginners_E-Certificate.pdf",
+    reflection:
+      "This course reinforced core Python concepts that I now apply in data handling, scripting, and ML experimentation.",
+  },
+  {
+    id: "cert-placeholder-01",
+    title: "[Add Certificate Title]",
+    issuer: "[Add issuing organization]",
+    date: "[Add completion date]",
+    skill: "[Technical or soft skill]",
+    reflection:
+      "Replace this reflection with how the course improved your skills and professional readiness.",
+  },
+  {
+    id: "cert-placeholder-02",
+    title: "[Add Certificate Title]",
+    issuer: "[Add issuing organization]",
+    date: "[Add completion date]",
+    skill: "[Technical or soft skill]",
+    reflection:
+      "Replace this reflection with how the course improved your skills and professional readiness.",
+  },
+];
+
 const projects = [
   {
-    title: "Travel Package Management System",
+    title: "Papaya Pulse - AI-Driven Smart Farming",
     description:
-      "MERN stack application for managing travel packages with admin and client workflows.",
-    stack: ["MongoDB", "Express", "React", "Node.js"],
-    outcome: "Strengthened CRUD workflow design and role-based UX planning.",
-    link: "[Add project link]",
+      "AI-powered decision-support system for papaya farmers with integrated recommendation and prediction modules.",
+    stack: [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "Scikit-Learn",
+      "OpenCV",
+      "Flask",
+      "React",
+    ],
+    outcome:
+      "Built the fertilizer recommendation module to optimize dosage and reduce over-fertilization risk.",
+    link: "GitHub: [Add link]",
   },
   {
-    title: "Skill Sharing Social Media Platform",
+    title: "Skill Hive",
     description:
-      "Social platform for sharing skills, posts, likes, and comments with a Spring Boot backend.",
-    stack: ["React", "Spring Boot", "MongoDB"],
-    outcome: "Improved API integration and content moderation logic.",
-    link: "[Add project link]",
+      "Online skill sharing community platform with an easy booking workflow.",
+    stack: ["Spring Boot", "React", "Tailwind CSS"],
+    outcome: "Improved community flows and booking UX patterns.",
+    link: "GitHub: [Add link]",
   },
   {
-    title: "Spice Management System",
+    title: "Dream Destination Travels",
     description:
-      "Inventory-focused solution for tracking spice suppliers, stocks, and orders.",
-    stack: ["React", "Node.js", "MongoDB"],
-    outcome: "Practiced data modeling and dashboard reporting.",
-    link: "[Add project link]",
+      "Travel agency system with AI chatbot, weather API, and admin logins.",
+    stack: ["MERN", "Vite", "Tailwind CSS", "API"],
+    outcome: "Integrated AI chatbot and external API experiences.",
+    link: "GitHub: [Add link]",
   },
   {
-    title: "Interior Designer Portfolio",
+    title: "Trust Workers",
     description:
-      "Modern responsive portfolio website showcasing interior design projects.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    outcome: "Refined layout composition and visual hierarchy skills.",
-    link: "[Add project link]",
+      "Mobile app for finding nannies, messengers, and on-demand workers.",
+    stack: ["Flutter", "Dart", "Android Studio", "MySQL", "PHP"],
+    outcome: "Built multi-role mobile workflows for service matching.",
+    link: "GitHub: [Add link]",
   },
   {
-    title: "Digital Marketing Company Portfolio",
+    title: "Online Seat Booking System",
     description:
-      "Corporate portfolio website featuring service highlights and project showcases.",
-    stack: ["React", "Tailwind CSS"],
-    outcome: "Enhanced brand storytelling and bento-style layout practice.",
-    link: "[Add project link]",
+      "Web-based highway bus ticket booking platform.",
+    stack: ["MERN", "Vite", "Tailwind CSS"],
+    outcome: "Delivered booking and seat selection flows.",
+    link: "GitHub: [Add link]",
   },
   {
-    title: "Photographer Portfolio",
-    description:
-      "React TypeScript portfolio with gallery sections and contact workflows.",
-    stack: ["React", "TypeScript"],
-    outcome: "Focused on content-driven UI and user engagement flows.",
-    link: "[Add project link]",
+    title: "Time Table Management",
+    description: "Compact timetable manager for simplified scheduling.",
+    stack: ["MERN", "Vite", "Tailwind CSS"],
+    outcome: "Practiced productivity tooling and CRUD planning.",
+    link: "GitHub: [Add link]",
+  },
+  {
+    title: "Food Catcher Mobile Game",
+    description: "Simple Android mobile game focused on timing mechanics.",
+    stack: ["Kotlin", "XML", "Android Studio"],
+    outcome: "Strengthened game loop and mobile UX basics.",
+    link: "GitHub: [Add link]",
+  },
+  {
+    title: "Space App Interface",
+    description: "Mobile UI concept for Android and iOS interfaces.",
+    stack: ["Flutter", "Dart", "Android Studio", "XML"],
+    outcome: "Improved cross-platform UI prototyping.",
+    link: "GitHub: [Add link]",
+  },
+  {
+    title: "Vehicle Rental System",
+    description: "Vehicle rental and management system.",
+    stack: ["Java", "HTML", "SQL", "XML", "CSS"],
+    outcome: "Designed rental workflows and admin reporting.",
+    link: "GitHub: [Add link]",
+  },
+  {
+    title: "Online Fashion Store Website",
+    description: "Web-based fashion store with admin dashboard.",
+    stack: ["PHP", "SQL", "CSS", "Java"],
+    outcome: "Implemented product and order management logic.",
+    link: "GitHub: [Add link]",
+  },
+  {
+    title: "Online Recipes Website",
+    description: "Recipe platform featuring chefs and curated food content.",
+    stack: ["PHP", "SQL", "CSS", "HTML"],
+    outcome: "Built content listings and navigation workflows.",
+    link: "GitHub: [Add link]",
+  },
+  {
+    title: "Task List Management System",
+    description: "Hospital task list management web system.",
+    stack: ["Spring Boot", "SQL", "Java", "JavaScript", "CSS", "XML"],
+    outcome: "Delivered operational task tracking features.",
+    link: "GitHub: [Add link]",
   },
 ];
 
 const outcomes = [
   {
     title: "Business Writing",
-    description: "Concise, clear, and formal communication for professional work.",
+    description: "In PPW, I learned that professional writing must be concise, formal, and action-oriented, with clear structure and purposeful wording. I applied this when drafting a project status memo where I removed contractions, used formal vocabulary, and ended each section with a specific call-to-action. I also practiced careful proofreading to eliminate ambiguity and tone issues. This discipline improved my professional readiness by making my communication clearer and more credible to supervisors and clients.",
   },
   {
     title: "Email and Netiquette",
-    description: "Professional digital communication with polished etiquette.",
+    description: "I learned how to structure professional emails with precise subject lines, proper salutations, and organized body paragraphs that state purpose, request, and next steps. I practiced this by emailing a lecturer to request feedback, using polite phrasing, an attachment note, and a complete signature. I also focused on concise wording and timely replies as part of netiquette. This improved my readiness by preparing me to communicate effectively in internships and team environments.",
   },
   {
     title: "Presentation Skills",
-    description: "Structured delivery and confident speaking strategies.",
+    description: "PPW helped me understand how to structure presentations using signposting, clear transitions, and confident delivery. I applied this in a short class presentation by outlining a strong introduction, three main points, and a concise conclusion. I practiced managing nervousness by controlling breathing and maintaining steady pacing. These skills improved my professional readiness by helping me explain technical ideas with clarity and confidence",
   },
   {
     title: "Interview Skills",
-    description: "Understanding employer expectations and STAR-based responses.",
+    description: "I learned about different interview formats and what employers assess, including technical ability, communication, and cultural fit. I practiced the STAR method by preparing responses to behavioral questions about teamwork and problem solving. This helped me structure my answers with clear outcomes rather than vague descriptions. As a result, I feel more prepared to present myself professionally and respond confidently in real interviews.",
   },
   {
     title: "Non-Verbal Communication",
-    description: "Eye contact, posture, voice, and gestures for stronger impact.",
+    description: "I learned that non-verbal cues such as posture, eye contact, gestures, and voice modulation strongly influence how messages are received. I practiced this during mock interviews by maintaining upright posture, steady eye contact, and controlled tone and pace. I also paid attention to professional appearance to align with the expectations of a formal setting. This improved my readiness by making my communication more persuasive and professional beyond words alone.",
   },
   {
     title: "Career Planning",
-    description: "Goal setting with continuous skill development.",
+    description: "I learned that career development requires deliberate goal setting, continuous skill growth, and portfolio building rather than short-term thinking. I applied this by outlining short-, mid-, and long-term goals and identifying specific skills to improve each month. I also mapped how my projects and certifications can evidence my progress. This improved my professional readiness by giving me a clearer direction and a structured plan to reach industry expectations.",
   },
 ];
 
@@ -596,34 +702,64 @@ export default function Home() {
           ]}
           projects={[
             {
-              title: "Travel Package Management System",
+              title: "Papaya Pulse - AI-Driven Smart Farming",
               description:
-                "MERN stack application for managing travel packages with admin and client functionalities, including package CRUD, booking, custom package creation, photo upload, and dynamic pricing.",
+                "Research project with an AI decision-support system for papaya cultivation; built the fertilizer recommendation module using ML for optimized dosage.",
             },
             {
-              title: "Skill Sharing Social Media Platform",
+              title: "Skill Hive",
               description:
-                "Platform where users can share skills, post content, like, and comment. Built using React frontend, Spring Boot backend, and MongoDB Atlas database.",
+                "Online skill sharing community platform with a streamlined booking flow.",
             },
             {
-              title: "Viduna Class Angular Spring Boot",
+              title: "Dream Destination Travels",
               description:
-                "Angular and Spring Boot prototype focused on academic class management workflows.",
+                "Travel agency system with AI chatbot, weather API, and admin logins.",
             },
             {
-              title: "KIYARAA Online Shopping Store",
+              title: "Trust Workers",
               description:
-                "Full-stack e-commerce web application developed using PHP and MySQL for local deployment.",
+                "Mobile app for finding nannies, messengers, and on-demand workers.",
             },
             {
-              title: "Preshadi Dance",
+              title: "Online Seat Booking System",
               description:
-                "Portfolio website concept highlighting performance services and media galleries.",
+                "Web-based highway bus ticket booking platform.",
             },
             {
-              title: "Trust Worker",
+              title: "Time Table Management",
               description:
-                "React TypeScript portfolio for displaying photography works and albums with client communication integration.",
+                "Compact timetable manager for simplified scheduling.",
+            },
+            {
+              title: "Food Catcher Mobile Game",
+              description:
+                "Simple Android game focused on timing and input mechanics.",
+            },
+            {
+              title: "Space App Interface",
+              description:
+                "Cross-platform mobile interface concept for Android and iOS.",
+            },
+            {
+              title: "Vehicle Rental System",
+              description:
+                "Vehicle rental and management system with admin workflows.",
+            },
+            {
+              title: "Online Fashion Store Website",
+              description:
+                "Web-based fashion store with an admin dashboard.",
+            },
+            {
+              title: "Online Recipes Website",
+              description:
+                "Recipe platform featuring chefs and curated food content.",
+            },
+            {
+              title: "Task List Management System",
+              description:
+                "Hospital task list management system built for operational tracking.",
             },
           ]}
           achievements={[
@@ -633,7 +769,10 @@ export default function Home() {
           ]}
         />
 
-        <CertificateEvidence note="Before final PDF submission, replace this placeholder with the actual certificate screenshot or credential link from LinkedIn." />
+        <CertificateEvidence
+          note="Before final PDF submission, replace placeholder items with actual certificate details and links."
+          items={evidenceItems}
+        />
 
         <ProjectsGrid projects={projects} />
 
